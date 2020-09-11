@@ -130,7 +130,7 @@
             "group": 6
         },
         {
-            "id": "Mail.ru",
+            "id": "Главная"",
             "group": 0
         },
         {
@@ -493,7 +493,7 @@
         },
         {
             "from": "Google",
-            "to": "Mail.ru"
+            "to": "Главная""
         },
         {
             "from": "Tumblr",
@@ -505,7 +505,7 @@
         },
         {
             "from": "Tumblr",
-            "to": "Mail.ru"
+            "to": "Главная"
         },
         {
             "from": "Tumblr",
@@ -521,7 +521,7 @@
         },
         {
             "from": "Digg",
-            "to": "Mail.ru"
+            "to": "Главная"
         },
         {
             "from": "Digg",
@@ -596,27 +596,27 @@
             "to": "American Express"
         },
         {
-            "from": "Mail.ru",
+            "from": "Главная"",
             "to": "Yandex"
         },
         {
-            "from": "Mail.ru",
+            "from": "Главная",
             "to": "Структура Банка инструментов разработчика"
         },
         {
-            "from": "Mail.ru",
+            "from": "Главная"",
             "to": "Hatena"
         },
         {
-            "from": "Mail.ru",
+            "from": "Главная",
             "to": "XING"
         },
         {
-            "from": "Mail.ru",
+            "from": "Главная",
             "to": "Newsvine"
         },
         {
-            "from": "Mail.ru",
+            "from": "Главная"",
             "to": "StumbleUpon"
         },
         {
@@ -634,7 +634,106 @@
         {
             "from": "Yahoo!",
             "to": "MySpace"
+        },
+        {
+            "from": "Yahoo!",
+            "to": "Baidu"
+        },
+        {
+            "from": "MySpace",
+            "to": "ReverbNation"
+        },
+        {
+            "from": "MySpace",
+            "to": "SoundCloud"
+        },
+        {
+            "from": "MySpace",
+            "to": "hi5 Networks Inc"
+        },
+        {
+            "from": "StumbleUpon",
+            "to": "XING"
+        },
+        {
+            "from": "StumbleUpon",
+            "to": "Hatena"
+        },
+        {
+            "from": "StumbleUpon",
+            "to": "Newsvine"
+        },
+        {
+            "from": "StumbleUpon",
+            "to": "MySpace"
+        },
+        {
+            "from": "XING",
+            "to": "AddToAny"
+        },
+        {
+            "from": "XING",
+            "to": "Hatena"
+        },
+        {
+            "from": "XING",
+            "to": "Newsvine"
+        },
+        {
+            "from": "XING",
+            "to": "Baidu"
+        },
+        {
+            "from": "XING",
+            "to": "Digg"
+        },
+        {
+            "from": "Newsvine",
+            "to": "AddToAny"
+        },
+        {
+            "from": "Newsvine",
+            "to": "Technorati"
+        },
+        {
+            "from": "Newsvine",
+            "to": "Hatena"
+        },
+        {
+            "from": "Hatena",
+            "to": "Baidu"
+        },
+        {
+            "from": "Hatena",
+            "to": "Sina Corp"
+        },
+        {
+            "from": "Hatena",
+            "to": "Digg"
+        },
+        {
+            "from": "Payoneer",
+            "to": "Skrill"
+        },
+        {
+            "from": "Payoneer",
+            "to": "Neteller"
+        },
+        {
+            "from": "Payoneer",
+            "to": "oDesk"
+        },
+        {
+            "from": "Payoneer",
+            "to": "ClickBank"
+        },
+        {
+            "from": "Payoneer",
+            "to": "MasterCard"
+        },
+        {
+            "from": "Payoneer",
+            "to": "Elance"
         }
     ]
 }
-
