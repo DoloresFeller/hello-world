@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<div id="anychart-embed-src-network-graph-knowledge-graph" class="anychart-embed anychart-embed-src-network-graph-knowledge-graph">
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js?hcode=c11e6e3cfefb406e8ce8d99fa8368d33"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-graph.min.js?hcode=c11e6e3cfefb406e8ce8d99fa8368d33"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-data-adapter.min.js?hcode=c11e6e3cfefb406e8ce8d99fa8368d33"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js?hcode=c11e6e3cfefb406e8ce8d99fa8368d33"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js?hcode=c11e6e3cfefb406e8ce8d99fa8368d33"></script>
+<div id="ac_style_src-network-graph-knowledge-graph" style="display:none;">
+html,
+body,
+#container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+</div>
+<script>
+(function(){
+function ac_add_to_head(el){
+	var head = document.getElementsByTagName('head')[0];
+	head.insertBefore(el,head.firstChild);
+}
+function ac_add_link(url){
+	var el = document.createElement('link');
+	el.rel='stylesheet';el.type='text/css';el.media='all';el.href=url;
+	ac_add_to_head(el);
+}
+function ac_add_style(css){
+	var ac_style = document.createElement('style');
+	if (ac_style.styleSheet) ac_style.styleSheet.cssText = css;
+	else ac_style.appendChild(document.createTextNode(css));
+	ac_add_to_head(ac_style);
+}
+ac_add_link('https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css?hcode=c11e6e3cfefb406e8ce8d99fa8368d33');
+ac_add_link('https://cdn.anychart.com/releases/v8/fonts/css/anychart-font.min.css?hcode=c11e6e3cfefb406e8ce8d99fa8368d33');
+ac_add_style(document.getElementById("ac_style_src-network-graph-knowledge-graph").innerHTML);
+ac_add_style(".anychart-embed-src-network-graph-knowledge-graph{width:900px;height:600px;}");
+})();</script>
+<div id="container"></div>
+<script>
+anychart.onDocumentReady(function () {
+    anychart.data.loadJsonFile(
+        // The data used in this sample can be obtained from the CDN
+        'https://cdn.anychart.com/samples-data/graph/knowledge_graph/data.json',
+        function (data) {
+            // create graph chart
+            var chart = anychart.graph(data);
+
+            // set settings for each group
+            for (var i = 0; i < 8; i++) {
+                // get group
+                var group = chart.group(i);
+
+                // set group labels settings
+                group.labels()
+                    .enabled(true)
+                    .anchor('left-center')
+                    .position('right-center')
+                    .padding(0, -5)
+                    .fontColor(anychart.palettes.defaultPalette[i]);
+
+                // set group nodes stroke and fill
+                group.stroke(anychart.palettes.defaultPalette[i]);
+                group.fill(anychart.palettes.defaultPalette[i]);
+            }
+
+            // set container id for the chart
+            chart.container('container');
+            // initiate chart drawing
+            chart.draw();
+        });
+});
+</script>
+</div>
