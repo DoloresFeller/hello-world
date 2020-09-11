@@ -22,23 +22,22 @@ var svg = d3.select("svg"),
     height = +svg.attr("height");    
     
 var nodes_data =  [
-    {"name": "R1"},
-    {"name": "R"},
-    {"name": "Rake"},
-    {"name": "Diana"},
-    {"name": "Rachel"},
-    {"name": "Shawn"},
-    {"name": "Emerald"}
-    ]
+        {   "name": "Структура Банка Инструментов"},
+        {   "name": "Целевая аудитория"},
+        {   "name": "Студенты"},
+        {   "name": "Молодые специалисты"},
+        {   "name": "Специалисты"},
+        {   "name": "Школьники (10-11)"},
+        {   "name": "Главная"}
+]
 
 var links_data = [
-    {"source": "Diana", "target": "R1"},
-    {"source": "Diana", "target": "R"},
-    {"source": "Diana", "target": "Rake"},
-    {"source": "Diana", "target": "Rachel"},
-    {"source": "Rachel", "target": "Rake"},
-    {"source": "Rachel", "target": "Shawn"},
-    {"source": "Emerald", "target": "Rachel"}
+        {   "source": "Целевая аудитория", "target": "Структура Банка Инструментов"},
+        {   "source": "Студенты", "target": "Целевая аудитория"},
+        {   "source": "Молодые специалисты", "target": "Целевая аудитория"},
+        {   "source": "Специалисты", "target": "Целевая аудитория"},  
+        {   "source": "Школьники (10-11)", "target": "Целевая аудитория"},  
+        {   "source": "Главная", "target": "Структура Банка Инструментов"}  	
 ]
 
 
