@@ -1,0 +1,258 @@
+{
+    "nodes": [
+        {
+            "id": "Advanced",
+            "group": 4
+        },
+        {
+            "id": "Base",
+            "group": 4
+        },
+        {
+            "id": "Books",
+            "group": 8
+        },
+        {
+            "id": "Course categories",
+            "group": 4
+        },
+        {
+            "id": "Courses",
+            "group": 4
+        },
+        {
+            "id": "Description of articles",
+            "group": 8
+        },		
+        {
+            "id": "Developer Tool Bank",
+            "group": 3
+        },			
+	    {
+            "id": "Dissertations",
+            "group": 8
+        },	
+	    {
+            "id": "Examples of cases",
+            "group": 9
+        },		
+	    {
+            "id": "Examples of mathematical methods",
+            "group": 6
+        },		
+	    {
+            "id": "Fields database",
+            "group": 5
+        },		
+	    {
+            "id": "Get started now?",
+            "group": 2
+        },		
+	    {
+            "id": "Infographics",
+            "group": 7
+        },			
+	    {
+            "id": "Institute of Petroleum Engineering",
+            "group": 0
+        },		
+	    {
+            "id": "Interactive",
+            "group": 3
+        },	
+	    {
+            "id": "Knowledge base",
+            "group": 8
+        },
+	    {
+            "id": "Landing page structure",
+            "group": 2
+        },
+	    {
+            "id": "Main database",
+            "group": 10
+        },
+	    {
+            "id": "Main page",
+            "group": 1
+        },
+	    {
+            "id": "Manual",
+            "group": 8
+        },
+	    {
+            "id": "Paid",
+            "group": 4
+        },	
+	    {
+            "id": "Pocket developer library",
+            "group": 8
+        },	
+	    {
+            "id": "Scheme",
+            "group": 3
+        },		
+	    {
+            "id": "School students",
+            "group": 0
+        },	
+	    {
+            "id": "Section elements",
+            "group": 3
+        },	
+	    {
+            "id": "Sort by difficulty",
+            "group": 4
+        },	
+	    {
+            "id": "Sort by directions",
+            "group": 4
+        },	
+	    {
+            "id": "Specialists",
+            "group": 0
+        },	
+	    {
+            "id": "Structure of the Internet resource Bank of instruments",
+            "group": 1
+        },	
+	    {
+            "id": "Students",
+            "group": 0
+        },		
+	    {
+            "id": "The target audience",
+            "group": 0
+        },	
+	    {
+            "id": "Young professionals",
+            "group": 0
+        }
+ ],
+    "edges": [
+        {
+            "from": "Advanced",
+            "to": "Sort by difficulty"
+        },
+        {
+            "from": "Base",
+            "to": "Sort by difficulty"
+        },
+        {
+            "from": "Books",
+            "to": "Pocket developer library"
+        },
+        {
+            "from": "Course categories",
+            "to": "Courses"
+        },
+        {
+            "from": "Courses",
+            "to": "Main page"
+        },
+        {
+            "from": "Description of articles",
+            "to": "Pocket developer library"
+        },		
+        {
+            "from": "Developer Tool Bank",
+            "to": "Main page"
+        },			
+        {
+            "from": "Dissertations",
+            "to": "Pocket developer library"
+        },	
+	    {
+            "from": "Examples of cases",
+            "to": "Main page"
+        },		
+	    {
+            "from": "Examples of mathematical methods",
+            "to": "Main page"
+        },		
+		{
+            "from": "Fields database",
+            "to": "Main page"
+        },		
+		{
+            "from": "Get started now?",
+            "to": "Main page"
+        },		
+        {
+            "from": "Infographics",
+            "to": "Main page"
+        },			
+        {
+            "from": "Interactive",
+            "to": "Developer Tool Bank"
+        },	
+        {
+            "from": "Knowledge base",
+            "to": "Main page"
+        },
+        {
+            "from": "Landing page structure",
+            "to": "Get started now?"
+        },
+        {
+            "from": "Main page",
+            "to": "Structure of the Internet resource Bank of instruments"
+        },
+        {
+            "from": "Manual",
+            "to": "Pocket developer library"8
+        },
+        {
+            "from": "Paid",
+            "to": "Course categories"
+        },	
+        {
+            "from": "Pocket developer library",
+            "to": "Knowledge base"
+        },	
+        {
+            "from": "Scheme",
+            "to": "Developer Tool Bank"
+        },		
+        {
+            "from": "School students",
+            "to": "The target audience"
+        },	
+        {
+            "from": "Section elements",
+            "to": "Interactive"
+        },
+        {
+            "from": "Section elements",
+            "to": "Scheme"
+        },		
+        {
+            "from": "Sort by difficulty",
+            "to": "Course categories"
+        },	
+        {
+            "from": "Sort by directions",
+            "to": "Course categories"
+        },	
+        {
+            "from": "Specialists",
+            "to": "The target audience"
+        },	
+        {
+            "from": "Structure of the Internet resource Bank of instruments",
+            "to": "Institute of Petroleum Engineering"
+        },	
+        {
+            "from": "Students",
+            "to": "The target audience"
+        },		
+        {
+            "from": "The target audience",
+            "to": "Institute of Petroleum Engineering"
+        },	
+        {
+            "from": "Young professionals",
+            "to": "The target audience"
+        }
+    ]
+}	
