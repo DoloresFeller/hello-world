@@ -1,0 +1,480 @@
+{
+	"nodes": [{
+			"id": "Advanced",
+			"group": 4
+		},
+		{
+			"id": "Base",
+			"group": 4
+		},
+		{
+			"id": "Blog",
+			"group": 11
+		},
+		{
+			"id": "Books",
+			"group": 8
+		},
+		{
+			"id": "Challenge Market",
+			"group": 11
+		},
+		{
+			"id": "Collecting user data",
+			"group": 12
+		},
+		{
+			"id": "Consent to the processing of personal data",
+			"group": 12
+		},
+		{
+			"id": "Course categories",
+			"group": 4
+		},
+		{
+			"id": "Courses",
+			"group": 4
+		},
+		{
+			"id": "Description of articles",
+			"group": 8
+		},
+		{
+			"id": "Developer Tool Bank",
+			"group": 3
+		},
+		{
+			"id": "Displaying statistics in a beautiful visual format",
+			"group": 14
+		},
+		{
+			"id": "Dissertations",
+			"group": 8
+		},
+		{
+			"id": "Examples of cases",
+			"group": 9
+		},
+		{
+			"id": "Examples of mathematical methods",
+			"group": 6
+		},
+		{
+			"id": "Fields database",
+			"group": 5
+		},
+		{
+			"id": "Full name",
+			"group": 12
+		},
+		{
+			"id": "Get started now?",
+			"group": 2
+		},
+		{
+			"id": "Infographics",
+			"group": 7
+		},
+		{
+			"id": "Institute of Petroleum Engineering",
+			"group": 0
+		},
+		{
+			"id": "Instructions for use",
+			"group": 2
+		},
+		{
+			"id": "Interactive",
+			"group": 3
+		},
+		{
+			"id": "Interactive map of the RF with the ability to display field data",
+			"group": 14
+		},
+		{
+			"id": "Keeping interactive format",
+			"group": 13
+		},
+		{
+			"id": "Knowledge base",
+			"group": 8
+		},
+		{
+			"id": "Landing page structure",
+			"group": 2
+		},
+		{
+			"id": "like a tree",
+			"group": 13
+		},
+		{
+			"id": "LU name",
+			"group": 14
+		},
+		{
+			"id": "Main database",
+			"group": 10
+		},
+		{
+			"id": "Main page",
+			"group": 1
+		},
+		{
+			"id": "Manual",
+			"group": 8
+		},
+		{
+			"id": "On branches: books on a specific topic",
+			"group": 13
+		},
+		{
+			"id": "Organization",
+			"group": 12
+		},
+		{
+			"id": "Other sections",
+			"group": 11
+		},
+		{
+			"id": "Paid",
+			"group": 4
+		},
+		{
+			"id": "Pocket developer library",
+			"group": 8
+		},
+		{
+			"id": "Professional status (student/specialist)",
+			"group": 12
+		},
+		{
+			"id": "Registration offer",
+			"group": 2
+		},
+		{
+			"id": "Roots: fundamental work",
+			"group": 13
+		},
+		{
+			"id": "Scheme",
+			"group": 3
+		},
+		{
+			"id": "School students",
+			"group": 0
+		},
+		{
+			"id": "Section elements",
+			"group": 3
+		},
+		{
+			"id": "Short description",
+			"group": 2
+		},
+		{
+			"id": "Software",
+			"group": 11
+		},
+		{
+			"id": "Sort by difficulty",
+			"group": 4
+		},
+		{
+			"id": "Sort by directions",
+			"group": 4
+		},
+		{
+			"id": "Source idea knowledge tree",
+			"group": 13
+		},
+		{
+			"id": "Specialists",
+			"group": 0
+		},
+		{
+			"id": "Structure of the Internet resource Bank of instruments",
+			"group": 1
+		},
+		{
+			"id": "Students",
+			"group": 0
+		},
+		{
+			"id": "The target audience",
+			"group": 0
+		},
+		{
+			"id": "Top: dissertations",
+			"group": 13
+		},
+		{
+			"id": "User registration",
+			"group": 12
+		},
+		{
+			"id": "What if we imagine a knowledge base library in the form of a tree or any other infographic",
+			"group": 13
+		},
+		{
+			"id": "Year",
+			"group": 14
+		},
+		{
+			"id": "Young professionals",
+			"group": 0
+		}
+	],
+	"edges": [{
+			"from": "Advanced",
+			"to": "Sort by difficulty"
+		},
+		{
+			"from": "Base",
+			"to": "Sort by difficulty"
+		},
+		{
+			"from": "Blog",
+			"to": "Other sections"
+		},
+		{
+			"from": "Books",
+			"to": "Pocket developer library"
+		},
+		{
+			"from": "Challenge Market",
+			"to": "Other sections"
+		},
+		{
+			"from": "Collecting user data",
+			"to": "Consent to the processing of personal data"
+		},
+		{
+			"from": "Consent to the processing of personal data",
+			"to": "User registration"
+		},
+		{
+			"from": "Course categories",
+			"to": "Courses"
+		},
+		{
+			"from": "Courses",
+			"to": "Main database"
+		},
+		{
+			"from": "Courses",
+			"to": "Main page"
+		},
+		{
+			"from": "Description of articles",
+			"to": "Pocket developer library"
+		},
+		{
+			"from": "Developer Tool Bank",
+			"to": "Main page"
+		},
+		{
+			"from": "Displaying statistics in a beautiful visual format",
+			"to": "Infographics"
+		},
+		{
+			"from": "Dissertations",
+			"to": "Main database"
+		},
+		{
+			"from": "Dissertations",
+			"to": "Pocket developer library"
+		},
+		{
+			"from": "Examples of cases",
+			"to": "Blog"
+		},
+		{
+			"from": "Examples of cases",
+			"to": "Main page"
+		},
+		{
+			"from": "Examples of mathematical methods",
+			"to": "Main page"
+		},
+		{
+			"from": "Fields database",
+			"to": "Main database"
+		},
+		{
+			"from": "Fields database",
+			"to": "Main page"
+		},
+		{
+			"from": "Full name",
+			"to": "Collecting user data"
+		},
+		{
+			"from": "Get started now?",
+			"to": "Main database"
+		},
+		{
+			"from": "Infographics",
+			"to": "Main page"
+		},
+		{
+			"from": "Infographics",
+			"to": "Main page"
+		},
+		{
+			"from": "Instructions for use",
+			"to": "Landing page structure"
+		},
+		{
+			"from": "Interactive",
+			"to": "Developer Tool Bank"
+		},
+		{
+			"from": "Interactive map of the RF with the ability to display field data",
+			"to": "Fields database"
+		},
+		{
+			"from": "Interactive map of the RF with the ability to display field data",
+			"to": "Infographics"
+		},
+		{
+			"from": "Keeping interactive format",
+			"to": "Scheme"
+		},
+		{
+			"from": "Knowledge base",
+			"to": "Main page"
+		},
+		{
+			"from": "Landing page structure",
+			"to": "Get started now?"
+		},
+		{
+			"from": "like a tree",
+			"to": "Keeping interactive format"
+		},
+		{
+			"from": "LU name",
+			"to": "Interactive map of the RF with the ability to display field data"
+		},
+		{
+			"from": "Main page",
+			"to": "Structure of the Internet resource Bank of instruments"
+		},
+		{
+			"from": "Manual",
+			"to": "Pocket developer library"
+		},
+		{
+			"from": "On branches: books on a specific topic",
+			"to": "What if we imagine a knowledge base library in the form of a tree or any other infographic"
+		},
+		{
+			"from": "Organization",
+			"to": "Collecting user data"
+		},
+		{
+			"from": "Other sections",
+			"to": "Institute of Petroleum Engineering"
+		},
+		{
+			"from": "Paid",
+			"to": "Course categories"
+		},
+		{
+			"from": "Pocket developer library",
+			"to": "Knowledge base"
+		},
+		{
+			"from": "Professional status (student/specialist)",
+			"to": "Collecting user data"
+		},
+		{
+			"from": "Registration offer",
+			"to": "Landing page structure"
+		},
+		{
+			"from": "Roots: fundamental work",
+			"to": "What if we imagine a knowledge base library in the form of a tree or any other infographic"
+		},
+		{
+			"from": "Scheme",
+			"to": "Developer Tool Bank"
+		},
+		{
+			"from": "School students",
+			"to": "The target audience"
+		},
+		{
+			"from": "Section elements",
+			"to": "Interactive"
+		},
+		{
+			"from": "Section elements",
+			"to": "Scheme"
+		},
+		{
+			"from": "Short description",
+			"to": "Landing page structure"
+		},
+		{
+			"from": "Software ",
+			"to": "Other sections"
+		},
+		{
+			"from": "Sort by difficulty",
+			"to": "Course categories"
+		},
+		{
+			"from": "Sort by directions",
+			"to": "Course categories"
+		},
+		{
+			"from": "Source idea knowledge tree",
+			"to": "like a tree"
+		},
+		{
+			"from": "Specialists",
+			"to": "The target audience"
+		},
+		{
+			"from": "Structure of the Internet resource Bank of instruments",
+			"to": "Institute of Petroleum Engineering"
+		},
+		{
+			"from": "Students",
+			"to": "The target audience"
+		},
+		{
+			"from": "The target audience",
+			"to": "Institute of Petroleum Engineering"
+		},
+		{
+			"from": "The target audience",
+			"to": "Structure of the Internet resource Bank of instruments"
+		},
+		{
+			"from": "Top: dissertations",
+			"to": "What if we imagine a knowledge base library in the form of a tree or any other infographic"
+		},
+		{
+			"from": "User registration",
+			"to": "Institute of Petroleum Engineering"
+		},
+		{
+			"from": "What if we imagine a knowledge base library in the form of a tree or any other infographic",
+			"to": "Infographics"
+		},
+		{
+			"from": "What if we imagine a knowledge base library in the form of a tree or any other infographic",
+			"to": "Source idea knowledge tree"
+		},
+		{
+			"from": "Year",
+			"to": "Collecting user data"
+		},
+		{
+			"from": "Young professionals",
+			"to": "The target audience"
+		}
+	]
+}
